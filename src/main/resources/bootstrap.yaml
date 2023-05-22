@@ -1,0 +1,18 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: milkstgo_microservice_proveedor
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    plataform: postgres
+    driver-class-name: org.postgresql.Driver
+    dbname: MilkStgo
+    url: jdbc:postgresql://localhost:5432/MilkStgo_MicroService
+    username: postgres
+    password: Simon_789
