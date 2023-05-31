@@ -12,7 +12,7 @@ spring:
   datasource:
     plataform: postgres
     driver-class-name: org.postgresql.Driver
-    dbname: MilkStgo
+    dbname: MilkStgo_Proveedores
     url: jdbc:postgresql://localhost:5432/MilkStgo_MicroService
     username: postgres
     password: Simon_789
