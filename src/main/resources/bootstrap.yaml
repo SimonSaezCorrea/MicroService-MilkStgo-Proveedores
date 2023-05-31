@@ -1,9 +1,10 @@
-server:
-  port: 8091
-
 spring:
   application:
     name: milkstgo_microservice_proveedor
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
   jpa:
     database: POSTGRESQL
     show-sql: true
